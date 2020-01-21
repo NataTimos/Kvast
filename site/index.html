@@ -152,5 +152,83 @@
       </table>
 	</section>
 
+	<section class="order">
+
+		<h2>Заказать</h2>
+		<p class="order-tip">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
+		<form class="order-form" action="/keksby-mail" method="post">
+			
+			<div class="order-form-group">
+				<label for="fullname">Представьтесь:</label>
+				<input type="text" name="fullname" id="fullname">
+			</div>
+
+			<div class="order-form-group">
+				<label for="phone">Номер телефона:</label>
+				<input type="text" name="phone" id="phone">
+			</div>
+			
+			<div class="order-form-group">
+				<label for="phone1">Доп. номер:</label>
+				<input type="text" name="phone1" id="phone1">
+			</div>
+
+			<div class="order-form-group">
+				<label for="email">Email:</label>
+				<input type="text" name="email" id="email">
+			</div>
+
+			<div class="order-form-group">
+				<label for="volume">Объём заказа:</label>
+				<select name="volume" id="volume">
+				<option value="1">От 5 до 10 баррелей в неделю</option>
+<!-- 				<option value="2">Возврат товара</option>
+				<option value="3">Жалоба в Роспотребнадзор</option> -->
+				</select>
+			</div>
+
+			<div class="order-form-group">
+				<label for="message">Доп. комментарий:</label>
+				<textarea name="message" id="message" rows="10" cols="100"></textarea>
+			</div>
+
+
+			<div class="checkbox-area">
+				<label>
+				<input type="checkbox" name="subscription" checked>
+				Я согласен получать квасную рассылку
+				</label>
+			</div>
+        
+			<input class="btn" type="submit" value="Отправить заказ">
+		</form>
+		
+	</section>
+
+	<footer class="main-footer">
+		<div class="main-footer-logo">
+			<img src="img/logo.png" alt="logo">
+		</div>
+
+		<div class="footer-menu">
+			<ul>
+				<li><a href="#">История</a></li>
+				<li><a href="#">Производство</a></li>
+				<li><a href="#">Ассортимент</a></li>
+				<li><a href="#">Где купить</a></li>
+			</ul>
+        </div>
+
+        <div class="footer-socials">
+        	<a class="social-btn" href="#">Инстаграм</a>
+        	<a class="social-btn" href="#">Фейсбук</a>
+			<a class="social-btn" href="#">Вконтакте</a>			
+        </div>
+
+        <p>При перепечатке материалов ссылка на сайт обязательна!</p>
+        <p><b>Разработчик:</b> <a href=#>HTML Academy</a></p>
+
+	</footer>
+
   </body>
 </html>
